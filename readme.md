@@ -13,14 +13,20 @@ Regular user => Email: user / Password: pass
 Original https://s3.amazonaws.com/pivotal-training-material/PCF+Developer/pcf-developer-1.7.a.RELEASE-labs.zip
 Beispiel APP https://github.com/bbertka-pivotal/PCF-101-Workshop.git
 oder https://github.com/cloudfoundry-samples
-
+```
 cf push articulate -p ./articulate-0.2.jar -m 512M --random-route --no-start
+```
 
+```
 cf push node --random-route -m 128M  -b https://github.com/cloudfoundry/nodejs-buildpack
-ggf. Node Version anpassen
+// ggf. Node Version anpassen
 
-Java App Beispiel
+```
+
+- Java App Beispiel
+  ```
   cf push --hostname javaapp
+  ```
 
 #### LogDrain
 ```
