@@ -6,3 +6,4 @@ target
 .idea/
 *.iml
 ~$*.ppt
+cloudfoundry-mongodb-service-broker
